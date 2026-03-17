@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+header { 
+    width: 100%;
+    background-image: url(stars.jpg);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: .7;
+}
+.skibidigrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.auragrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(164, 219, 223);
+    margin: 0;
+    padding: 5px;
+}
+footer {
+    width: 100vw;
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+    line-height: 3;
+    margin-top: -20px;
+    font-size: clamp(10px, 1vw, 20px);
+}
+nav {
+    background-color: rgb(61, 189, 189);
+}
+ul {
+    list-style-type: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: gray;
+}
+#kaicenat {
+    padding: 10px;
+}
+section {
+    margin: 0;
+}
